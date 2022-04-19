@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
 	char * line = NULL;
 	size_t len = 0;
 	ssize_t read;
-	fp = fopen(argv[2], "r");
+	fp = fopen(argv[1], "r");
 	if(fp == NULL){
 	return 1;
 	}
