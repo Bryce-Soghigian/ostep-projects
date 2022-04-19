@@ -34,7 +34,7 @@ int main(int argc, char *argv[]){
            exit(1);
 	}
 	for(int i = 1;i < argc;i++){
-		readFromFile(atoi(argv[i]));
+		readFromFile(argv[i]);
 	}
 	exit(0);
 }
